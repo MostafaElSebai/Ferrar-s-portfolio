@@ -3,6 +3,15 @@ import { randomBytes } from "node:crypto";
 import { getPayload } from "payload";
 import config from "../src/payload.config";
 
+if (
+  !/^mongodb:\/\/(127\.0\.0\.1|localhost)(:|\/)/.test(
+    process.env.DATABASE_URL || "",
+  )
+) {
+  throw new Error(
+    "This verification creates temporary records. Run it only against a local test database, never Atlas.",
+  );
+}
 const payload = await getPayload({ config });
 const origin = "http://127.0.0.1:3000";
 const json = { "Content-Type": "application/json" };

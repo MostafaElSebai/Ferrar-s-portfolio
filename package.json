@@ -7,7 +7,7 @@
     "node": "24.x"
   },
   "scripts": {
-    "dev": "next dev --hostname 127.0.0.1",
+    "dev": "payload generate:importmap && next dev --hostname 127.0.0.1",
     "build": "next build",
     "start": "next start --hostname 127.0.0.1",
     "check": "tsc --noEmit",

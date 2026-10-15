@@ -7,3 +7,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Local testing handoff
+
+After testing, stop every development or preview server started by the agent. Do not leave a server occupying the user's port. Tell the user to run `npm run dev` themselves and test in their own Chrome. Do not stop user-owned processes without checking ownership and authorization. Do not run development and production preview servers against the same build output simultaneously.

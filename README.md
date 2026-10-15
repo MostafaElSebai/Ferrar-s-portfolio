@@ -4,14 +4,13 @@ A local Next.js + blank Payload project using the supplied portfolio artwork. No
 
 ## Run locally
 
-Use Node 24 and install with `npm ci`. Copy `.env.example` to `.env` and set a random `PAYLOAD_SECRET` and your MongoDB URL. Start MongoDB, then run:
+Use Node 24 and install with `npm ci` on a fresh checkout. The current `.env` is configured for Atlas and Vercel Blob, and the 22 portfolio projects have been imported. For a fresh setup, copy `.env.example` and configure your database, secret, and Blob token. To test in your own Chrome, run:
 
 ```sh
-npm run seed
 npm run dev
 ```
 
-Open `http://127.0.0.1:3000` and `/admin`. Create your first editor account in the admin screen. No default credentials are seeded. The initial local database was created at `/tmp/ahmed-mongo` on port 27018 for this session; replace it with your own persistent local database when needed. Uploaded files are stored in ignored `media/` during local development. Seed source images are retained under `public/portfolio`.
+Open `http://127.0.0.1:3000` and `/admin`. `npm run dev` refreshes the Payload import map before startup, including the Blob client upload component. Stop the server with Ctrl+C when finished. Agent testing must also stop its own servers before handing control back. Create your first editor account in the admin screen. No default credentials are seeded. The initial local database at `/tmp/ahmed-mongo` on port 27018 was used only for the first implementation test; it is not required for the current Atlas configuration. Uploaded files are stored in ignored `media/` during local development. Seed source images are retained under `public/portfolio`.
 
 Projects, images, About, and Contact are editable in Payload. Contact has email, Behance, and an optional **full WhatsApp URL**. Add the real link later; it starts blank. Public reads use `/api/projects`, `/api/media`, `/api/globals/about`, and `/api/globals/contact`. Changes require an authenticated editor. Draft projects are hidden from visitors.
 
