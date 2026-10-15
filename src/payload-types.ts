@@ -162,6 +162,10 @@ export interface Project {
   categories: ('social' | 'key-visual' | 'print')[];
   cover: string | Media;
   description?: string | null;
+  /**
+   * Optional HTTPS link to a video for this project.
+   */
+  videoUrl?: string | null;
   gallery: {
     image: string | Media;
     id?: string | null;
@@ -312,6 +316,7 @@ export interface ProjectsSelect<T extends boolean = true> {
   categories?: T;
   cover?: T;
   description?: T;
+  videoUrl?: T;
   gallery?:
     | T
     | {

@@ -44,6 +44,16 @@ export default async function Project({ params }: Props) {
           <span>.</span>
         </h1>
         {project.description && <p>{project.description}</p>}
+        {project.videoUrl && (
+          <a
+            className="video-link"
+            href={project.videoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Watch project video <span aria-hidden="true">↗</span>
+          </a>
+        )}
       </div>
       <div className="project-gallery">
         {project.gallery.map((item, index) => {

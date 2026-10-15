@@ -41,6 +41,22 @@ export const Projects: CollectionConfig = {
     { name: "cover", type: "upload", relationTo: "media", required: true },
     { name: "description", type: "textarea" },
     {
+      name: "videoUrl",
+      type: "text",
+      label: "Video link",
+      admin: {
+        description: "Optional HTTPS link to a video for this project.",
+      },
+      validate: (value: unknown) => {
+        if (!value) return true;
+        try {
+          return new URL(String(value)).protocol === "https:" || "Enter an HTTPS video URL, or leave empty.";
+        } catch {
+          return "Enter a valid HTTPS video URL, or leave empty.";
+        }
+      },
+    },
+    {
       name: "gallery",
       type: "array",
       required: true,

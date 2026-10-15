@@ -210,6 +210,24 @@ button {
 .text-link span {
   font-size: 22px;
 }
+.video-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 22px;
+  margin-top: 22px;
+  padding: 11px 16px;
+  border: 1px solid #484a50;
+  border-radius: 40px;
+  font-size: 12px;
+  transition: background 0.2s, border-color 0.2s;
+}
+.video-link:hover {
+  background: var(--blue);
+  border-color: var(--blue);
+}
+.video-link span {
+  font-size: 17px;
+}
 .hero-note {
   font-size: 9px;
   line-height: 1.8;
