@@ -1,0 +1,207 @@
+[
+  {
+    "slug": "aqua-delta",
+    "title": "Aqua Delta",
+    "categories": ["social", "print"],
+    "pages": [8, 9, 10, 40],
+    "gallery": [
+      "/portfolio/art-35.webp",
+      "/portfolio/art-36.webp",
+      "/portfolio/art-41.webp",
+      "/portfolio/art-44.webp",
+      "/portfolio/art-49.webp",
+      "/portfolio/art-51.webp",
+      "/portfolio/print-40.webp"
+    ]
+  },
+  {
+    "slug": "maxi",
+    "title": "Maxi",
+    "categories": ["social", "print"],
+    "pages": [11, 12, 13, 41],
+    "gallery": [
+      "/portfolio/art-56.webp",
+      "/portfolio/art-57.webp",
+      "/portfolio/art-62.webp",
+      "/portfolio/art-63.webp",
+      "/portfolio/art-68.webp",
+      "/portfolio/art-69.webp",
+      "/portfolio/print-41.webp"
+    ]
+  },
+  {
+    "slug": "4-swapp",
+    "title": "4 Swapp",
+    "categories": ["social"],
+    "pages": [15, 16],
+    "gallery": [
+      "/portfolio/art-80.webp",
+      "/portfolio/art-82.webp",
+      "/portfolio/art-87.webp",
+      "/portfolio/art-89.webp"
+    ]
+  },
+  {
+    "slug": "ford-expedition",
+    "title": "Ford Expedition",
+    "categories": ["key-visual"],
+    "pages": [5],
+    "gallery": ["/portfolio/art-19.webp"]
+  },
+  {
+    "slug": "nayashin",
+    "title": "Nayashin",
+    "categories": ["social"],
+    "pages": [17, 18],
+    "gallery": [
+      "/portfolio/art-94.webp",
+      "/portfolio/art-95.webp",
+      "/portfolio/art-100.webp"
+    ]
+  },
+  {
+    "slug": "roxy-plast",
+    "title": "Roxy Plast",
+    "categories": ["social", "print"],
+    "pages": [19, 20, 39],
+    "gallery": [
+      "/portfolio/art-105.webp",
+      "/portfolio/art-106.webp",
+      "/portfolio/art-111.webp",
+      "/portfolio/art-113.webp",
+      "/portfolio/print-39.webp"
+    ]
+  },
+  {
+    "slug": "brinsova",
+    "title": "Brinsova",
+    "categories": ["social"],
+    "pages": [26, 27],
+    "gallery": [
+      "/portfolio/art-150.webp",
+      "/portfolio/art-151.webp",
+      "/portfolio/art-156.webp",
+      "/portfolio/art-157.webp"
+    ]
+  },
+  {
+    "slug": "wash-thru",
+    "title": "Wash Thru",
+    "categories": ["social"],
+    "pages": [14],
+    "gallery": ["/portfolio/art-74.webp", "/portfolio/art-75.webp"]
+  },
+  {
+    "slug": "diamond-clinic",
+    "title": "Diamond Clinic",
+    "categories": ["social"],
+    "pages": [21],
+    "gallery": ["/portfolio/art-118.webp", "/portfolio/art-119.webp"]
+  },
+  {
+    "slug": "nasaaem-hospital",
+    "title": "Nasaaem Hospital",
+    "categories": ["social"],
+    "pages": [22, 23],
+    "gallery": [
+      "/portfolio/art-124.webp",
+      "/portfolio/art-125.webp",
+      "/portfolio/art-131.webp",
+      "/portfolio/art-132.webp",
+      "/portfolio/art-133.webp"
+    ]
+  },
+  {
+    "slug": "tabarak-hospital",
+    "title": "Tabarak Hospital",
+    "categories": ["social"],
+    "pages": [24, 25],
+    "gallery": [
+      "/portfolio/art-138.webp",
+      "/portfolio/art-139.webp",
+      "/portfolio/art-144.webp",
+      "/portfolio/art-145.webp"
+    ]
+  },
+  {
+    "slug": "egyptian-nile-tours",
+    "title": "Egyptian Nile Tours",
+    "categories": ["social"],
+    "pages": [28],
+    "gallery": ["/portfolio/art-162.webp", "/portfolio/art-163.webp"]
+  },
+  {
+    "slug": "al-arrab-pure",
+    "title": "Al-Arrab Pure",
+    "categories": ["social"],
+    "pages": [29],
+    "gallery": ["/portfolio/art-169.webp", "/portfolio/art-170.webp"]
+  },
+  {
+    "slug": "hotelizeit",
+    "title": "Hotelizeit",
+    "categories": ["social"],
+    "pages": [30],
+    "gallery": ["/portfolio/art-175.webp", "/portfolio/art-176.webp"]
+  },
+  {
+    "slug": "proscan",
+    "title": "Proscan",
+    "categories": ["social"],
+    "pages": [31],
+    "gallery": ["/portfolio/art-181.webp", "/portfolio/art-182.webp"]
+  },
+  {
+    "slug": "aso2lak",
+    "title": "Aso2lak",
+    "categories": ["social"],
+    "pages": [32],
+    "gallery": ["/portfolio/art-187.webp", "/portfolio/art-188.webp"]
+  },
+  {
+    "slug": "cookin-aboud",
+    "title": "Cookin Aboud",
+    "categories": ["social"],
+    "pages": [33],
+    "gallery": ["/portfolio/art-193.webp", "/portfolio/art-194.webp"]
+  },
+  {
+    "slug": "rabat-foundation",
+    "title": "Rabat Foundation",
+    "categories": ["social"],
+    "pages": [34],
+    "gallery": ["/portfolio/art-200.webp", "/portfolio/art-201.webp"]
+  },
+  {
+    "slug": "cinematic-key-visual",
+    "title": "Cinematic Key Visual",
+    "categories": ["key-visual"],
+    "pages": [6],
+    "gallery": ["/portfolio/art-25.webp"]
+  },
+  {
+    "slug": "hospital-print-design",
+    "title": "Healthcare Print Design",
+    "categories": ["print"],
+    "pages": [36, 37, 38],
+    "gallery": [
+      "/portfolio/print-36.webp",
+      "/portfolio/print-37.webp",
+      "/portfolio/print-38.webp"
+    ]
+  },
+  {
+    "slug": "corporate-brochure",
+    "title": "Corporate Brochure",
+    "categories": ["print"],
+    "pages": [42],
+    "gallery": ["/portfolio/print-42.webp"]
+  },
+  {
+    "slug": "outdoor-flags",
+    "title": "Outdoor Flags",
+    "categories": ["print"],
+    "pages": [43],
+    "gallery": ["/portfolio/print-43.webp"]
+  }
+]
